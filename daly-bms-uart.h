@@ -4,8 +4,8 @@
 #define DALY_BMS_UART_H
 
 // Uncomment the below #define to enable debugging print statements.
-// NOTE: You must call Serial.being(<baud rate>) in your setup() for this to work
-#define DALY_BMS_DEBUG
+// NOTE: You must call Serial.begin(<baud rate>) in your setup() for this to work
+// #define DALY_BMS_DEBUG
 
 #define XFER_BUFFER_LENGTH 13
 
